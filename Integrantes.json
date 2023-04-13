@@ -1,0 +1,26 @@
+[{
+    "nombre": "Daniela Abayay",
+    "ocupacion": "Iluminadora",
+    "tarea": "Montaje y operación de luces",
+    "img": "./IMAGENES/Integrante1.jpg"
+},
+
+{   "nombre":"Juana Zurdui",
+    "ocupacion": "Sonidista",
+    "tarea": "Operación de sonido",
+    "img":"./IMAGENES/Integrante2.jpg"
+},
+{
+    "nombre":"Agustina Vieyra",
+    "ocupacion": "Iluminadora",
+    "tarea": "Montaje y operación de Luces",
+    "img":"./IMAGENES/Integrante3.jpg"
+},
+
+{
+    "nombre":"Emilia Leonardi",
+    "ocupacion": "Vestuarista",
+    "tarea": "Vestuario, confeccion",
+    "img":"./IMAGENES/Integrante4.jpg"
+}
+]

@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Montserrat:wght@300;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,100;1,300;1,400;1,600&family=Roboto&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #050505;
+    color:rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estos son los estilos del header */
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+    padding-top: 30px;
+    border-bottom:groove 0.3rem rgb(255, 255, 255);
+}
+
+.seccion-navegador{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 90px;
+    margin: 15px;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+}
+
+.foto-hero{
+    height: 400px;
+    margin-left: 170px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-style:double;
+}
+
+.navegador{
+    display: flex;
+    flex-direction: row
+}
+
+
+.contenedor-imagenes{
+    display: flex;
+    justify-content: center;
+}
+.contenedor-imagenes img{
+    flex: 1;   
+}
+
+.foto1{
+    width: 45%;
+    height: 290px;
+    padding: 5px;
+}
+
+.foto2{
+    width: 45%;
+    height: 290px;
+    padding: 5px;
+}
+
+.p-principal{
+    animation: animacion-colorida 4s infinite;
+}
+
+@keyframes animacion-colorida {
+    0% {
+        color:#3FDEAD
+    }
+    65%{
+        color:#87189D;
+    }
+   100% {
+      color: #3064A9;
+    }
+}
+
+a{  padding: 10px;
+    margin: 8px;
+    background-color:white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color:black;
+    border-radius: 10px;
+}
+
+header section a:hover{
+    background-color:#821b91;
+    transition: 1s;
+}
+
+
+.contenedor-info-temid{
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    padding-bottom: 10px;
+  
+}
+
+p{
+    font-size: 20px;  
+}
+/* Fin estilos Header */
+
+/* Esto es contenedor Nosotrxs */
+/* estos son los estilos de las cartas de integrantes */
+h2{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 40px;
+}
+
+.card{
+    background-color: #050505;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.card p{
+    text-align: center;
+    font-weight: 200;
+}
+
+.card h3{
+    text-align: center;
+    text-shadow: #3064A9;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.integrantes-card{
+    color: white;
+    
+    margin: 17px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.card-info{
+    width: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.integrantes-card img{
+    width: 271px;
+    height: 100%;
+}
+/* Este es el fin de estilos de las cartas de integrantes */
+
+
+/* Estos son los estilos de Escuela de tecnicxs */
+.escuela{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.areas-container{
+    display: flex;
+    gap: 15px
+}
+
+.stagemanager{
+    display: flex;
+    align-items: center;
+    
+}
+.stagemanager img{
+    height: 30px;
+    width: 15%;
+    margin-bottom: 47px;
+    margin-top: 30px;
+}
+
+.iluminación{
+    display: flex;
+    align-items: center;
+    
+}
+.iluminación img{
+    height: 30px;
+    width: 15%;
+    margin-bottom: 47px;
+    margin-top: 30px;
+}
+
+.sonidoenvivo{
+    display: flex;
+    align-items: center;
+    
+}
+.sonidoenvivo img{
+    height: 30px;
+    width: 15%;
+    margin-bottom: 47px;
+    margin-top: 30px;
+}
+/* Fin de estilos de escuela de tecnicos */
+
+
+/* Estilos del formulario */
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: none;   
+}
+
+.titulo-contactanxs{
+    text-align: center;
+}
+
+ .inputs{
+     border: none;
+     border-radius: 5px;
+     padding: 10px;
+     background-color: rgba(251, 248, 248, 0.144);
+     color: white;
+}
+ .boton{
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    background-color:white;
+    color:black;
+    font-size: 15px;
+    box-shadow: 0px 2px 0px rgba(230, 234, 230, 0.71) ;
+    transition: all;
+    margin-top: 15px;
+ }
+ .labels{
+    margin: 15px;
+    color: white;
+    font-size: 15px;
+}
+    .textarea {
+        height: 200px;
+        width: 100%;
+        resize: vertical;
+        border: none;
+        border-radius: 9px;
+        background-color: rgba(251, 248, 248, 0.144); 
+        color: white;
+    }
+ .boton:hover{
+     background-color: rgba(241, 252, 239, 0.71);
+ }
+
+ .imgForm{
+    height: 150px;
+    width: 250px;
+ }
+ /* Fin estilos del formulario */
+
+
+ /* Estilos del footer */
+footer{
+    background-color:#030304;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+footer .info{
+    display: flex;
+    align-items:center;
+}
+
+footer .contacto{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+footer .redes a{
+    color: black;
+    text-decoration: none;
+}
+/* Fin de los estilos del footer */
+
+/* estilos hr */
+hr{
+    border: none;
+    border-top: 5px solid;
+    animation: animacion-colorida 4s infinite;
+}
+
+@keyframes animacion-colorida {
+    0% {
+      color: #4ACAB9;
+    }
+    25% {
+      color: #9475D2;
+    }
+    50% {
+      color: #9475D2;
+    }
+    65%{
+        color:#87189D;
+    }
+    80% {
+      color: #3FDEAD;
+    }
+    100% {
+      color: #3064A9;
+    }
+  }
+/* Fin estilos hr */
+
+/* diseño responsivo */
